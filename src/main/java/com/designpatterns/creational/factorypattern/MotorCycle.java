@@ -1,6 +1,6 @@
-package com.designpatterns.structural.factorypattern;
+package com.designpatterns.creational.factorypattern;
 
-public class MotorCycle implements Vehicle {
+public class MotorCycle implements FuelVehicle {
     @Override
     public void build() {
         System.out.println("Build Motorcycle");
@@ -8,6 +8,6 @@ public class MotorCycle implements Vehicle {
 
     @Override
     public String toString(){
-        return "I am MotorCycle";
+        return "I am "+this.getClass();
     }
 }

@@ -1,13 +1,13 @@
-package com.designpatterns.structural.factorypattern;
+package com.designpatterns.creational.factorypattern;
 
 public class Driver {
     public static void main(String[] args) {
         VehicleFactory mcvf = new MotorCycleFactory();
-        Vehicle motorCycle = mcvf.create();
+        FuelVehicle motorCycle = mcvf.create();
         System.out.println(motorCycle);
 
         VehicleFactory cf = new CarFactory();
-        Vehicle car = cf.create();
+        FuelVehicle car = cf.create();
         System.out.println(car);
     }
 }

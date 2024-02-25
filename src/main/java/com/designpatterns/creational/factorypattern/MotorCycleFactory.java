@@ -1,8 +1,8 @@
-package com.designpatterns.structural.factorypattern;
+package com.designpatterns.creational.factorypattern;
 
 public class MotorCycleFactory extends VehicleFactory {
     @Override
-    public Vehicle createMotorVehicle() {
+    public FuelVehicle createFuelVehicle() {
         return new MotorCycle();
     }
 }
