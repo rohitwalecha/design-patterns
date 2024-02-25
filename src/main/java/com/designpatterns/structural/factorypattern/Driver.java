@@ -1,4 +1,4 @@
-package com.designpatterns.factorypattern;
+package com.designpatterns.structural.factorypattern;
 
 public class Driver {
     public static void main(String[] args) {

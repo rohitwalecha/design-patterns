@@ -1,4 +1,4 @@
-package com.designpatterns.factorypattern;
+package com.designpatterns.structural.factorypattern;
 
 public abstract class VehicleFactory {
     public Vehicle create(){

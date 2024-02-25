@@ -1,4 +1,4 @@
-package com.designpatterns.factorypattern;
+package com.designpatterns.structural.factorypattern;
 
 public class MotorCycle implements Vehicle {
     @Override
