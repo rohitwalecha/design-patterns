@@ -6,7 +6,7 @@ public class Car implements FuelVehicle {
         System.out.println("Build Car");
     }
 
-    @Override //jhgjhvjhvjhvjvj
+    @Override
     public String toString(){
         return "I am "+this.getClass();
     }
